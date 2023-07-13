@@ -7,7 +7,7 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Himadri Nayak",
+  "author": "Vivek Raj",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -19,5 +19,8 @@
     "mongoose": "^7.1.0",
     "multer": "^1.4.5-lts.1",
     "node": "^20.4.0"
-  }
+  },
+    "engines": {
+    "node": ">=14.20.1"
+  },
 }
